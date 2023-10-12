@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>  
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="portfolio individuel, projets, code, développement web, digital" />
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/041cc62a46.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Bonjour</h1>
+      <nav id="navbar">
+        <label class="burger" for="toggle">☰</label>
+        <input type="checkbox" id="toggle">
+        <ul>
+          <li><a class="nav-link" href="#welcome-section">Accueil</a></li>
+          <li><a class="nav-link" href="#projects">Mes projets</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+	</ul>
+      </nav>
+    </header>
+    <main> 
+        <section id="welcome-section">
+          <div class="left">
+            <h2>Bienvenue</h2>
+            <p>Je m'appelle Jennifer. Bienvenue sur mon portfolio.</p>
+          </div>
+          <div class="right">       
+            <div class="penguin">
+              <div class="penguin-head">
+                <div class="face left"></div>
+                <div class="face right"></div>
+                <div class="chin"></div>
+                <div class="eye left">
+                  <div class="eye-lid"></div>
+                </div>
+                <div class="eye right">
+                  <div class="eye-lid"></div>
+                </div>
+                <div class="blush left"></div>
+                <div class="blush right"></div>
+                <div class="beak top"></div>
+                <div class="beak bottom"></div>
+              </div>
+              <div class="shirt">
+                <div>💜</div>
+                <p>I CODE</p>
+              </div> 
+              <div class="penguin-body">
+                <div class="arm left"></div>
+                <div class="arm right"></div>
+                <div class="foot left"></div>
+                <div class="foot right"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="projects">
+          <h2>Voici quelques uns de mes projets</h2>
+            <div class='caroussel_diapo'>
+              <input checked id="carou_un" name="rotation" type="radio">
+              <label for="carou_un"></label>
+              <input id="carou_deux" name="rotation" type="radio">
+              <label for="carou_deux"></label>
+              <input id="carou_trois" name="rotation" type="radio">
+              <label for="carou_trois"></label>
+              <input id="carou_quatre" name="rotation" type="radio">
+              <label for="carou_quatre"></label>
+              <input id="carou_cinq" name="rotation" type="radio">
+              <label for="carou_cinq"></label>
+              <input id="carou_six" name="rotation" type="radio">
+              <label for="carou_six"></label>
+              <input id="carou_sept" name="rotation" type="radio">
+              <label for="carou_sept"></label>
+              <input id="carou_huit" name="rotation" type="radio">
+              <label for="carou_huit"></label>
+              <div class="contenu_carou">
+                <div class="caroussel">
+                  <a href="https://jnniferv.github.io/Page_descriptive_du_futur/" class="project-tile" target="_blank">
+                    <img src="images/futur.jpg" alt="futur, page descriptive en html css">
+                    <p>Page descriptive</p>
+                  </a>
+                  <a href="https://jnniferv.github.io/Menu_Brunch/" class="project-tile" target="_blank">
+                    <img src="images/brunch.jpg" alt="menu brunch, restaurant">
+                    <p>Carte Menu</p>
+                  </a>
+                  <a href="https://jnniferv.github.io/Ville_Jour_Nuit/" class="project-tile" target="_blank">
+                    <img src="images/ville.jpg" alt="ville de jour, ville de nuit en css">
+                    <p>Ville jour/nuit</p>
+                  </a>
+                  <a href="https://jnniferv.github.io/Formulaire_Inscription/" class="project-tile" target="_blank">
+                    <img src="images/form.jpg" alt="formulaire, devis">
+                    <p>Formulaire Inscription</p>
+                  </a>
+                  <a href="https://jnniferv.github.io/Landing_Page/" class="project-tile" target="_blank">
+                    <img src="images/page.jpg" alt="landing page classique">
+                    <p>Landing Page</p>
+                  </a>
+                  <a href="https://jnniferv.github.io/Page_Magazine/" class="project-tile" target="_blank">
+                    <img src="images/magazine.jpg" alt="page de magazine">
+                    <p>Magazine</p>
+                  </a>
+                  <a href="https://jnniferv.github.io/Surfing_Site/" class="project-tile" target="_blank">
+                    <img src="images/surf.jpg" alt="surf, site vitrine">
+                    <p>Site Vitrine</p>
+                  </a>
+                  <a href="https://jnniferv.github.io/Tetris/" class="project-tile" target="_blank">
+                    <img src="images/tetris.jpg" alt="tetris">
+                    <p>Jeu de Tetris</p>
+                  </a>                  
+                </div>
+              </div>
+            </div>    
+        </section>
+        <section id="contact">
+          <h2>Travaillons Ensemble</h2>
+          <p>En présentiel ou à distance.</p>
+          <p class="meeting">Rencontrons nous <i class="fa-regular fa-handshake"></i></p>
+          <div class="social">
+            <a href="https://github.com/JnniferV" id="profile-link" target="_blank"><p class="shadow"><i class="fab fa-github"></i> Mon github</a></p>
+            <a href="mailto:jennvidalfr@gmail.com" id="email" target="_blank"><p class="shadow"><i class="fas fa-at"></i> Envoyer un email</a></p>
+            <p class="shadow"><i class="fas fa-mobile-alt"></i><span id="text"> Me joindre par téléphone</span><span id="tel"> 07.69.23.33.97</span></p>
+              <audio id="yes" peload="auto">
+                  <source src="yes.mp3">
+              </audio>
+          </div>
+        </section>
+    </main>
+    <footer>
+        <ul>
+          <li><a class="foot-link" href="#welcome-section">Accueil</a></li>
+         <!-- <li><a class="foot-link" href="cv.pdf" download>Télécharger CV</a></li> -->
+          <li><a class="foot-link" href="#">@ Créé par JnniferV</a></li>
+        </ul>
+    </footer>  
+    <script>
+      var yesOne= $("#yes")[0];
+      $("#tel")
+      .mouseenter(function() {
+          yesOne.play();
+      });
+    </script>
+  </body>
+</html>
