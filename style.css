@@ -601,7 +601,6 @@ transform:rotateY(45deg) translateZ(540px) scale(1)
 }
 .meeting {
   font-size: 30px;
-  font-family: 'Gloria Hallelujah', sans-serif;
   margin-top: 0;
 }
 .shadow {
